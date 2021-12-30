@@ -12,7 +12,7 @@
 ///9) local scope and global scope variable
 
 
-package main
+package practice
 
 // import "fmt"
 

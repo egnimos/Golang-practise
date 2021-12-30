@@ -1,23 +1,8 @@
-package main
-
-import "fmt"
+package practice
 
 var GlobalVariable string = "hello global"
-var globalVaribale string = "hola amigous"
-
-func main() {
-	var localVariable int
-
-	for i := 0; i < 10; i++ {
-		localVariable = i
-	}
-
-	scope()
-
-	fmt.Println(localVariable)
-	fmt.Println(globalVaribale, GlobalVariable)
-}
+var GlobalVaribale1 string = "hola amigous"
 
 func scope() {
-	fmt.Println(globalVaribale, GlobalVariable)
+	// fmt.Println(globalVaribale, GlobalVariable)
 }
